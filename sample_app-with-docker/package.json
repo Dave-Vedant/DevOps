@@ -1,0 +1,19 @@
+{
+  "name": "sample_app-with-docker",
+  "version": "1.0.0",
+  "description": "This demo app shows a simple user profile app set up using  - index.html with pure js and css styles - nodejs backend with express module - mongodb for data storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedantdave77/DevOps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedantdave77/DevOps/issues"
+  },
+  "homepage": "https://github.com/vedantdave77/DevOps#readme"
+}
