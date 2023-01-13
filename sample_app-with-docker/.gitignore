@@ -2,6 +2,3 @@ node_module
 
 .DS_store
 
-.code *
-.vscode *
-.env

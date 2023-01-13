@@ -8,15 +8,15 @@ ENV MONGO_DB_USERNAME = admin \
 # create the con964f270f496dtinaer direcoty /home/app
 RUN mkdir -p /home/app  
 
-# copy code from (/app) to container directory (home/app)
-COPY . /home/app
+# copy everything to container directory (home/app)
+COPY ./app /home/app
 
-# set the default directory, so the  commands will run in that.
+# set working directory
 WORKDIR /home/app
 
 # will execute  the npm install to install the rquried packages to dir
 RUN npm install
 
 # use the  container directory beside of /home/app
-CMD ["node", "/server.js"]
+CMD ["node", "server.js"]
 
