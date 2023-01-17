@@ -1,6 +1,11 @@
 version: '3'
 
 services:
+  my-app:
+    image: 582524088916.dkr.ecr.us-east-1.amazonaws.com/docker-app:latest
+    ports:
+      - 3000:3000
+      
   mongodb:
     image: mongo
     ports:
